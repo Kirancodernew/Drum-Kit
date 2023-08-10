@@ -1,0 +1,134 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image:  url("images/pexels-moose-photos-1037992.jpg");
+    background-repeat: no-repeat;
+    /* background-color: rgb(212, 187, 177); */
+    /* background-image: image-set(url(chrome://theme/IDR_THEME_NTP_BACKGROUND?bgpokfibcibhopmeafoabcakgnlbjnjg) 1x, url(chrome://theme/IDR_THEME_NTP_BACKGROUND@2x?bgpokfibcibhopmeafoabcakgnlbjnjg) 2x); */
+    /* background-repeat: no-repeat; */
+    background-position:  center top;
+    background-size: cover;
+    /* --ntp-theme-text-color: rgba(255, 255, 255, 1.00); */
+    color: rgb(175, 4, 96);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title{
+    font-family: cursive;
+    font-size: 6rem;
+    text-align: center;
+    margin: 100px 0px;
+    text-shadow: 3px 0 rgb(210, 131, 212);
+
+}
+.drum-buttons{
+        /* width: 12px; */
+        /* display: inline-block; */
+        /* margin: 21vh 0vh; */
+        /* justify-content: center; */
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    /* margin: 0px 12px; */
+    height: 28vh;
+    /* align-content: center; */
+    align-items: center;
+    margin-bottom: 18vh;
+    /* text-shadow: 3px 0 rgb(17, 5, 86); */
+
+    
+}
+.w{
+    background-image: url("images/tom1.png");
+    /* background-size: 20vh; */
+    background-color: white;
+    color: red;
+    font-size: 4.5rem;
+    width: 15vh;
+    height: 15vh;
+    margin: 0px 30px;
+    border: solid 10px rgb(98, 90, 90);
+    border-radius: 10px;
+}
+.a{
+    background-image: url("images/tom2.png");
+
+    background-color: white;
+    color: red;
+    font-size: 4.5rem;
+
+    width: 15vh;
+    height: 15vh;
+    margin: 0px 30px;
+    border: solid 10px rgb(98, 90, 90);
+    border-radius: 10px;
+
+}
+.s{
+    background-image: url("images/tom3.png");
+
+    background-color: white;
+    color: red;
+    font-size: 4.5rem;
+    width: 15vh;
+    height: 15vh;
+    margin: 0px 30px;
+    border: solid 10px rgb(98, 90, 90);
+    border-radius: 10px;
+
+}
+.d{
+    background-image: url("images/tom4.png");
+    background-color: white;
+    font-size: 4.5rem;
+    color: red;
+    width: 15vh;
+    height: 15vh;
+    margin: 0px 30px;
+    border: solid 10px rgb(98, 90, 90);
+    border-radius: 10px;
+}
+.j{
+    background-image: url("images/snare.png");
+    background-color: white;
+    font-size: 4.5rem;
+    color: red;
+    width: 15vh;
+    height: 15vh;
+    margin: 0px 30px;
+    border: solid 10px rgb(98, 90, 90);
+    border-radius: 10px;
+}
+.k{
+    background-image: url("images/crash.png");
+    background-color: white;
+    font-size: 4.5rem;
+    color: red;
+    width: 15vh;
+    height: 15vh;
+    margin: 0px 30px;
+    border: solid 10px rgb(98, 90, 90);
+    border-radius: 10px;
+}
+.l{
+    background-image: url("images/kick.png");
+    background-color: white;
+    font-size: 5rem;
+    color: red;
+    width: 15vh;
+    height: 15vh;
+    margin: 0px 30px;
+    border: solid 10px rgb(98, 90, 90);
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    font-size: 1rem;
+    margin: 25px 0px;
+}
+.pressed{
+    box-shadow: 0px 5px 5px 0px rgb(135, 138, 133);
+    opacity: 0.5;
+}
